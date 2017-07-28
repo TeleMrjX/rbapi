@@ -11,9 +11,9 @@ Aides developer
 Channel = @super_api
 */
 ob_start();
-$API_KEY = '446305578:AAG7hgWwcgAEjjNM3G1PCd0024EWBWy3Y6A'; //add your bot token
-$bot_ = "hajibata_bot"; // add your bot username 
-$sudo = 401808020; // add your id 
+$API_KEY = '271081509:AAGGrPqsEAeiGQHPHj-J9MYYSRIvOhS2rT8'; //add your bot token
+$bot_ = "ReloadHelperBot"; // add your bot username 
+$sudo = 193156389; // add your id 
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
